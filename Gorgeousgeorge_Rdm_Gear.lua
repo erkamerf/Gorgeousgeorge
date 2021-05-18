@@ -41,8 +41,8 @@ function user_job_setup()
 	send_command('bind @\\\\ input /ma "Shell V" <t>')
 	send_command('bind !\\\\ input /ma "Reraise" <me>')
 	send_command('bind @f10 gs c cycle RecoverMode')
-	--send_command('bind ^r gs c set skipprocweapons true;gs c reset weaponskillmode;gs c weapons Default;gs c set unlockweapons false')
-	send_command('bind ^q gs c set weapons enspellonly;gs c set unlockweapons true')
+	send_command('bind ^s gs c set skipprocweapons true;gs c reset weaponskillmode;gs c weapons Default;gs c set unlockweapons false')
+	send_command('bind ^e gs c set weapons enspellonly;gs c set unlockweapons true')
 	send_command('bind !r gs c set skipprocweapons true;gs c reset weaponskillmode;gs c set weapons none')
 	send_command('bind !q gs c set skipprocweapons false;gs c set weapons DualProcDaggers;gs c set weaponskillmode proc')
 	
@@ -183,7 +183,7 @@ function init_gear_sets()
 	sets.midcast.Enspell = sets.midcast.Temper
 	sets.midcast.Enspell.DW = set_combine(sets.midcast.Enspell, {sub="Pukulatmuj"})
 	sets.midcast.BoostStat = {hands="Viti. Gloves +3"}
-	sets.midcast.Stoneskin = {neck="Nodens Gorget",ear2="Earthcry Earring",waist="Siegel Sash",legs="Shedir Seraweels"}
+	sets.midcast.Stoneskin = {neck="Nodens Gorget",ear2="Earthcry Earring",waist="Siegel Sash",legs="Querkening Brais "}
 	sets.midcast.Protect = {ring2="Sheltered Ring"}
 	sets.midcast.Shell = {ring2="Sheltered Ring"}
 	
@@ -299,17 +299,17 @@ function init_gear_sets()
 	-- Sets to return to when not performing an action.
 	
 	-- Resting sets
-	sets.resting = {main="Chatoyant Staff",sub="Oneiros Grip",range=empty,ammo="Impatiens",
-		head="Viti. Chapeau +3",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
-		body="Jhakri Robe +2",hands=gear.merlinic_refresh_hands,ring1="Defending Ring",ring2="Sheltered Ring",
-		back="Umbra Cape",waist="Flume Belt +1",legs="Lengo Pants",feet=gear.chironic_refresh_feet}
+	sets.resting = {main="Colada",sub="Anahera Saber",range=empty,ammo="Charitoni Sling",
+		head="Viti. Chapeau +3",neck="Moepapa Pendant",ear1="Aredan Earring",ear2="Assuage Earring",
+		body="Cohort Cloak",hands="Ayanmo Manopolas",ring1="Jhakri Ring",ring2="Dark Ring",
+		back="Sucellos\'s Cape",waist="Sailfi Belt",legs="Carmine Cuisses +1",feet="Jhakri Pigaches +1"}
 	
 
 	-- Idle sets
-	sets.idle = {main="Bolelabunga",sub="Sacro Bulwark",range=empty,ammo="Homiliary",
-		head="Viti. Chapeau +3",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
-		body="Jhakri Robe +2",hands=gear.merlinic_refresh_hands,ring1="Stikini Ring +1",ring2="Stikini Ring +1",
-		back="Umbra Cape",waist="Flume Belt +1",legs="Lengo Pants",feet=gear.merlinic_refresh_feet}
+	sets.idle = {main="Colada",sub="Anahera Saber",range=empty,ammo="Charitoni Sling",
+		head="Viti. Chapeau +3",neck="Moepapa Pendant",ear1="Aredan Earring",ear2="Assuage Earring",
+		body="Cohort Cloak",hands="Ayanmo Manopolas",ring1="Jhakri Ring",ring2="Dark Ring",
+		back="Sucellos\'s Cape",waist="Sailfi Belt",legs="Carmine Cuisses +1",feet="Jhakri Pigaches +1"}
 		
 	sets.idle.PDT = {main="Terra's Staff",sub="Oneiros Grip",range=empty,ammo="Staunch Tathlum +1",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
@@ -385,10 +385,10 @@ function init_gear_sets()
 --		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Petrov Ring",ring2="Ilabrat Ring",
 --		back=gear.stp_jse_back,waist="Windbuffet Belt +1",legs="Carmine Cuisses +1",feet="Carmine Greaves +1"}
 
-	sets.engaged = {ammo="Aurgelmir Orb +1",
-		head="Malignance Chapeau",neck="Asperity Necklace",ear1="Brutal Earring",ear2="Sherida Earring",
-		body="Ayanmo Corazza +2",hands="Malignance Gloves",ring1="Petrov Ring",ring2="Ilabrat Ring",
-		back=gear.stp_jse_back,waist="Windbuffet Belt +1",legs="Malignance Tights",feet="Carmine Greaves +1"}
+	sets.engaged = {ammo="Charitoni Sling",
+		head="Viti. Chapeau +3",neck="Moepapa Pendant",ear1="Aredan Earring",ear2="Assuage Earring",
+		body="Cohort Cloak",hands="Ayanmo Manopolas",ring1="Jhakri Ring",ring2="Dark Ring",
+		back="Sucellos\'s Cape",waist="Sailfi Belt",legs="Carmine Cuisses +1",feet="Jhakri Pigaches +1"}
 		
 	sets.engaged.EnspellOnly = {
 		head="Malignance Chapeau",neck="Dls. Torque +2",ear1="Suppanomimi",ear2="Digni. Earring",
