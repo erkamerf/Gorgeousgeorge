@@ -306,10 +306,13 @@ function init_gear_sets()
 	
 
 	-- Idle sets
-	sets.idle = {main="Colada",sub="Anahera Saber",range=empty,ammo="Charitoni Sling",
-		head="Viti. Chapeau +3",neck="Moepapa Pendant",ear1="Aredan Earring",ear2="Assuage Earring",
-		body="Cohort Cloak",hands="Ayanmo Manopolas",ring1="Jhakri Ring",ring2="Dark Ring",
-		back="Sucellos\'s Cape",waist="Sailfi Belt",legs="Carmine Cuisses +1",feet="Jhakri Pigaches +1"}
+	sets.idle = {ammo="Charitoni Sling",
+    head={ name="Chironic Hat", augments={'Weapon Skill Acc.+6','CHR+6','Accuracy+19 Attack+19','Mag. Acc.+4 "Mag.Atk.Bns."+4',}},
+    body={ name="Chironic Doublet", augments={'"Mag.Atk.Bns."+12','Mag. Acc.+14 "Mag.Atk.Bns."+14','Accuracy+20 Attack+20',}},
+    hands={ name="Chironic Gloves", augments={'AGI+1','Accuracy+30','Magic Damage +19','Accuracy+16 Attack+16','Mag. Acc.+6       "Mag.Atk.Bns."+6',}},
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}}, feet="Chironic Slippers",
+    neck="Moepapa Pendant",waist="Sailfi Belt",left_ear="Aredan Earring",right_ear="Assuage Earring",
+    left_ring="Jhakri Ring",right_ring="Dark Ring",back="Sucellos's Cape"}
 		
 	sets.idle.PDT = {main="Terra's Staff",sub="Oneiros Grip",range=empty,ammo="Staunch Tathlum +1",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
@@ -385,10 +388,12 @@ function init_gear_sets()
 --		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Petrov Ring",ring2="Ilabrat Ring",
 --		back=gear.stp_jse_back,waist="Windbuffet Belt +1",legs="Carmine Cuisses +1",feet="Carmine Greaves +1"}
 
-	sets.engaged = {ammo="Charitoni Sling",
-		head="Viti. Chapeau +3",neck="Moepapa Pendant",ear1="Aredan Earring",ear2="Assuage Earring",
-		body="Cohort Cloak",hands="Ayanmo Manopolas",ring1="Jhakri Ring",ring2="Dark Ring",
-		back="Sucellos\'s Cape",waist="Sailfi Belt",legs="Carmine Cuisses +1",feet="Jhakri Pigaches +1"}
+	sets.engaged = {    ammo="Charitoni Sling",
+    head={ name="Chironic Hat", augments={'Weapon Skill Acc.+6','CHR+6','Accuracy+19 Attack+19','Mag. Acc.+4 "Mag.Atk.Bns."+4',}},
+    body={ name="Chironic Doublet", augments={'"Mag.Atk.Bns."+12','Mag. Acc.+14 "Mag.Atk.Bns."+14','Accuracy+20 Attack+20',}},
+    hands={ name="Chironic Gloves", augments={'AGI+1','Accuracy+30','Magic Damage +19','Accuracy+16 Attack+16','Mag. Acc.+6 "Mag.Atk.Bns."+6',}}, legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Chironic Slippers", neck="Moepapa Pendant", waist="Sailfi Belt", left_ear="Aredan Earring",right_ear="Assuage Earring",
+    left_ring="Jhakri Ring", right_ring="Dark Ring", back="Sucellos's Cape"}
 		
 	sets.engaged.EnspellOnly = {
 		head="Malignance Chapeau",neck="Dls. Torque +2",ear1="Suppanomimi",ear2="Digni. Earring",
