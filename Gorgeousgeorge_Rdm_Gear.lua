@@ -299,14 +299,14 @@ function init_gear_sets()
 	-- Sets to return to when not performing an action.
 	
 	-- Resting sets
-	sets.resting = {main="Colada",sub="Anahera Saber",range=empty,ammo="Charitoni Sling",
+	sets.resting = {main="Colada",sub="Anahera Saber",range=empty,ammo="Demonry Stone",
 		head="Viti. Chapeau +3",neck="Moepapa Pendant",ear1="Aredan Earring",ear2="Assuage Earring",
 		body="Cohort Cloak",hands="Ayanmo Manopolas",ring1="Jhakri Ring",ring2="Dark Ring",
 		back="Sucellos\'s Cape",waist="Sailfi Belt",legs="Carmine Cuisses +1",feet="Jhakri Pigaches +1"}
 	
 
 	-- Idle sets
-	sets.idle = {ammo="Charitoni Sling",
+	sets.idle = {ammo="Demonry Stone",
     head={ name="Chironic Hat", augments={'Weapon Skill Acc.+6','CHR+6','Accuracy+19 Attack+19','Mag. Acc.+4 "Mag.Atk.Bns."+4',}},
     body={ name="Chironic Doublet", augments={'"Mag.Atk.Bns."+12','Mag. Acc.+14 "Mag.Atk.Bns."+14','Accuracy+20 Attack+20',}},
     hands={ name="Chironic Gloves", augments={'AGI+1','Accuracy+30','Magic Damage +19','Accuracy+16 Attack+16','Mag. Acc.+6       "Mag.Atk.Bns."+6',}},
@@ -388,7 +388,7 @@ function init_gear_sets()
 --		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Petrov Ring",ring2="Ilabrat Ring",
 --		back=gear.stp_jse_back,waist="Windbuffet Belt +1",legs="Carmine Cuisses +1",feet="Carmine Greaves +1"}
 
-	sets.engaged = {    ammo="Charitoni Sling",
+	sets.engaged = {    ammo="Demonry Stone",
     head={ name="Chironic Hat", augments={'Weapon Skill Acc.+6','CHR+6','Accuracy+19 Attack+19','Mag. Acc.+4 "Mag.Atk.Bns."+4',}},
     body={ name="Chironic Doublet", augments={'"Mag.Atk.Bns."+12','Mag. Acc.+14 "Mag.Atk.Bns."+14','Accuracy+20 Attack+20',}},
     hands={ name="Chironic Gloves", augments={'AGI+1','Accuracy+30','Magic Damage +19','Accuracy+16 Attack+16','Mag. Acc.+6 "Mag.Atk.Bns."+6',}}, legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
