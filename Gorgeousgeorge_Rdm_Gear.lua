@@ -402,7 +402,7 @@ function init_gear_sets()
     	body="Ayanmo Corazza",
     	hands={ name="Chironic Gloves", augments={'MND+5','Quadruple Attack +2','Accuracy+11 Attack+11','Mag. Acc.+19 "Mag.Atk.Bns."+19',}},
     	legs="Querkening Brais", feet="Aya. Gambieras", neck="Moepapa Pendant", waist="Sailfi Belt +1",
-    	left_ear="Bladeborn Earring", right_ear="Assuage Earring", left_ring="Jhakri Ring", right_ring="Dark Ring",
+    	left_ear="Bladeborn Earring", right_ear="Assuage Earring", left_ring="Jhakri Ring", right_ring="Rajas Ring",
     	back="Atheling Mantle",}
 		
 	sets.engaged.EnspellOnly = {
@@ -427,12 +427,12 @@ function init_gear_sets()
 		
 	sets.engaged.Acc.DT = {ammo="Aurgelmir Orb +1",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Cessance Earring",ear2="Sherida Earring",
-		body="Malignance Tabard",hands="Hagondes Cuffs +1",ring1="Defending Ring",ring2="Dark Ring",
+		body="Malignance Tabard",hands="Hagondes Cuffs +1",ring1="Defending Ring",ring2="Rajas Ring",
 		back="Moonlight Cape",waist="Flume Belt +1",legs="Hagondes Pants +1",feet="Battlecast Gaiters"}
 		
 	sets.engaged.FullAcc.DT = {ammo="Aurgelmir Orb +1",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Cessance Earring",ear2="Sherida Earring",
-		body="Malignance Tabard",hands="Hagondes Cuffs +1",ring1="Defending Ring",ring2="Dark Ring",
+		body="Malignance Tabard",hands="Hagondes Cuffs +1",ring1="Defending Ring",ring2="Rajas Ring",
 		back="Moonlight Cape",waist="Flume Belt +1",legs="Hagondes Pants +1",feet="Battlecast Gaiters"}
 		
 	sets.engaged.DW = {ammo="Aurgelmir Orb +1",
