@@ -68,7 +68,7 @@ function init_gear_sets()
 
 	-- Fast cast sets for spells
 	
-	sets.precast.FC = {main=gear.grioavolr_fc_staff,sub="Clerisy Strap +1",range=empty,ammo="Impatiens",
+	sets.precast.FC = {ammo="Impatiens",
 		head="Atrophy Chapeau +3",neck="Voltsurge Torque",ear1="Enchntr. Earring +1",ear2="Lethargy Earring",
 		body="Viti. Tabard +3",hands="Gende. Gages +1",ring1="Kishar Ring",ring2="Lebeche Ring",
 		back="Perimede Cape",waist="Witful Belt",legs="Psycloth Lappas",feet=gear.merlinic_aspir_feet}
@@ -401,9 +401,9 @@ function init_gear_sets()
     	head={ name="Chironic Hat", augments={'AGI+10','"Dbl.Atk."+1','Quadruple Attack +3','Accuracy+19 Attack+19','Mag. Acc.+8 "Mag.Atk.Bns."+8',}},
     	body="Ayanmo Corazza",
     	hands={ name="Chironic Gloves", augments={'MND+5','Quadruple Attack +2','Accuracy+11 Attack+11','Mag. Acc.+19 "Mag.Atk.Bns."+19',}},
-    	legs="Querkening Brais", feet="Aya. Gambieras", neck="Moepapa Pendant", waist="Sailfi Belt +1",
+    	legs="Carmine Cuisses +1", feet="Aya. Gambieras", neck="Moepapa Pendant", waist="Sailfi Belt +1",
     	left_ear="Bladeborn Earring", right_ear="Assuage Earring", left_ring="Jhakri Ring", right_ring="Rajas Ring",
-    	back="Atheling Mantle",}
+    	back="Sucellos's Cape",}
 		
 	sets.engaged.EnspellOnly = {
 		head="Malignance Chapeau",neck="Dls. Torque +2",ear1="Suppanomimi",ear2="Digni. Earring",
