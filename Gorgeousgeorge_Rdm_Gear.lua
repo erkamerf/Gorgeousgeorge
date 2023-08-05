@@ -319,7 +319,7 @@ function init_gear_sets()
     	legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
     	feet={ name="Chironic Slippers", augments={'Attack+6','"Mag.Atk.Bns."+30','Mag. Acc.+10 "Mag.Atk.Bns."+10',}},
     	neck="Moepapa Pendant", waist="Flume Belt", left_ear="Aredan Earring", right_ear="Assuage Earring",
-    	left_ring="Jhakri Ring", right_ring="Dark Ring", back=gear.wsd_jse_back,}
+    	left_ring="Defending Ring", right_ring="Dark Ring", back=gear.wsd_jse_back,}
 		
 	sets.idle.PDT = {ammo="Staunch Tathlum",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
