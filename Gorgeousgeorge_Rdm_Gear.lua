@@ -83,7 +83,7 @@ function init_gear_sets()
 		body={ name="Chironic Doublet", augments={'"Blood Boon"+2','INT+3','Weapon skill damage +6%','Accuracy+12 Attack+12','Mag. Acc.+10 "Mag.Atk.Bns."+10',}},
     	hands="Jhakri Cuffs +1",
     	legs={ name="Chironic Hose", augments={'Accuracy+3 Attack+3','Weapon skill damage +1%','Mag. Acc.+13 "Mag.Atk.Bns."+13',}},
-    	feet="Aya. Gambieras", neck="Moepapa Medal", waist="Refoccilation Stone", left_ear="Heims Earring", right_ear="Assuage Earring",
+    	feet="Aya. Gambieras +1", neck="Moepapa Medal", waist="Refoccilation Stone", left_ear="Heims Earring", right_ear="Assuage Earring",
     	left_ring="Jhakri Ring", right_ring="Mujin Band", back=gear.wsd_jse_back}
 		
 	sets.precast.WS.Proc = 	{range=empty,ammo="Hasty Pinion +1",
@@ -315,7 +315,7 @@ function init_gear_sets()
 	
 
 	-- Idle sets
-	sets.idle = {ammo="Staunch Tathlum", head="Aya. Zucchetto", body="Ayanmo Corazza", hands="Aya. Manopolas",
+	sets.idle = {ammo="Staunch Tathlum", head="Aya. Zucchetto +1", body="Ayanmo Corazza +1", hands="Aya. Manopolas +1",
     	legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
     	feet={ name="Chironic Slippers", augments={'Attack+6','"Mag.Atk.Bns."+30','Mag. Acc.+10 "Mag.Atk.Bns."+10',}},
     	neck="Moepapa Pendant", waist="Flume Belt", left_ear="Aredan Earring", right_ear="Assuage Earring",
@@ -339,7 +339,7 @@ function init_gear_sets()
 	sets.idle.DTHippo = set_combine(sets.idle.PDT, {back="Umbra Cape",legs="Carmine Cuisses +1",feet="Hippo. Socks +1"})
 	
 	-- Defense sets
-	sets.defense.PDT = {ammo="Staunch Tathlum", head="Aya. Zucchetto", body="Ayanmo Corazza", hands="Aya. Manopolas",
+	sets.defense.PDT = {ammo="Staunch Tathlum", head="Aya. Zucchetto +1", body="Ayanmo Corazza +1", hands="Aya. Manopolas +1",
 	legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
 	feet={ name="Chironic Slippers", augments={'Attack+6','"Mag.Atk.Bns."+30','Mag. Acc.+10 "Mag.Atk.Bns."+10',}},
 	neck="Moepapa Pendant", waist="Flume Belt", left_ear="Aredan Earring", right_ear="Assuage Earring",
@@ -399,25 +399,25 @@ function init_gear_sets()
 	sets.engaged = {
     	ammo="Staunch Tathlum",
     	head={ name="Chironic Hat", augments={'AGI+10','"Dbl.Atk."+1','Quadruple Attack +3','Accuracy+19 Attack+19','Mag. Acc.+8 "Mag.Atk.Bns."+8',}},
-    	body="Ayanmo Corazza",
+    	body="Ayanmo Corazza +1",
     	hands={ name="Chironic Gloves", augments={'MND+5','Quadruple Attack +2','Accuracy+11 Attack+11','Mag. Acc.+19 "Mag.Atk.Bns."+19',}},
-    	legs="Carmine Cuisses +1", feet="Aya. Gambieras", neck="Moepapa Pendant", waist="Sailfi Belt +1",
+    	legs="Carmine Cuisses +1", feet="Aya. Gambieras +1", neck="Moepapa Pendant", waist="Sailfi Belt +1",
     	left_ear="Bladeborn Earring", right_ear="Assuage Earring", left_ring="Jhakri Ring", right_ring="Rajas Ring",
     	back="Sucellos's Cape",}
 		
 	sets.engaged.EnspellOnly = {
 		head="Malignance Chapeau",neck="Dls. Torque +2",ear1="Suppanomimi",ear2="Digni. Earring",
-		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Metamor. Ring +1",ring2="Ramuh Ring +1",
+		body="Ayanmo Corazza +1",hands="Aya. Manopolas +1",ring1="Metamor. Ring +1",ring2="Ramuh Ring +1",
 		back="Ghostfyre Cape",waist="Windbuffet Belt +1",legs="Carmine Cuisses +1",feet="Malignance Boots"}
 
 	sets.engaged.Acc = {
 		head="Malignance Chapeau",neck="Asperity Necklace",ear1="Cessance Earring",ear2="Sherida Earring",
-		body="Ayanmo Corazza +2",hands="Malignance Gloves",ring1="Petrov Ring",ring2="Ilabrat Ring",
+		body="Ayanmo Corazza +1",hands="Malignance Gloves",ring1="Petrov Ring",ring2="Ilabrat Ring",
 		back=gear.stp_jse_back,waist="Windbuffet Belt +1",legs="Malignance Tights",feet="Carmine Greaves +1"}	
 		
 	sets.engaged.FullAcc = {ammo="Aurgelmir Orb +1",
 		head="Malignance Chapeau",neck="Asperity Necklace",ear1="Cessance Earring",ear2="Sherida Earring",
-		body="Ayanmo Corazza +2",hands="Malignance Gloves",ring1="Petrov Ring",ring2="Ilabrat Ring",
+		body="Ayanmo Corazza +1",hands="Malignance Gloves",ring1="Petrov Ring",ring2="Ilabrat Ring",
 		back=gear.stp_jse_back,waist="Windbuffet Belt +1",legs="Malignance Tights",feet="Carmine Greaves +1"}
 
 	sets.engaged.DT = {ammo="Aurgelmir Orb +1",
