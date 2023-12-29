@@ -79,9 +79,9 @@ function init_gear_sets()
 	-- Weaponskill sets
 	-- Default set for any weaponskill that isn't any more specifically defined
 	sets.precast.WS = {ammo="Staunch Tathlum",
-    	head="Jhakri Coronal +1",
+    	head="Jhakri Coronal +2",
 		body={ name="Chironic Doublet", augments={'"Blood Boon"+2','INT+3','Weapon skill damage +6%','Accuracy+12 Attack+12','Mag. Acc.+10 "Mag.Atk.Bns."+10',}},
-    	hands="Jhakri Cuffs +1",
+    	hands="Jhakri Cuffs +2",
     	legs={ name="Chironic Hose", augments={'Accuracy+3 Attack+3','Weapon skill damage +1%','Mag. Acc.+13 "Mag.Atk.Bns."+13',}},
     	feet="Aya. Gambieras +1", neck="Moepapa Medal", waist="Refoccilation Stone", left_ear="Heims Earring", right_ear="Assuage Earring",
     	left_ring="Jhakri Ring", right_ring="Mujin Band", back=gear.wsd_jse_back}
@@ -95,7 +95,7 @@ function init_gear_sets()
 	sets.precast.WS['Requiescat'] = {range=empty,ammo="Regal Gem",
 		head="Jhakri Coronal +2",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Sherida Earring",
 		body="Jhakri Robe +2",hands="Atrophy Gloves +2",ring1="Ifrit Ring +1",ring2="Rufescent Ring",
-		back=gear.wsd_jse_back,waist="Fotia Belt",legs="Jhakri Slops +1",feet="Jhakri Pigaches +1"}
+		back=gear.wsd_jse_back,waist="Fotia Belt",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"}
 	
 	sets.precast.WS['Chant Du Cygne'] = {range=empty,ammo="Voluspa Tathlum",
 		head="Malignance Chapeau",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Sherida Earring",
@@ -107,21 +107,21 @@ function init_gear_sets()
 	sets.precast.WS['Savage Blade'] = {range=empty,ammo="Regal Gem",
 		head="Viti. Chapeau +2",neck="Caro Necklace",ear1="Moonshade Earring",ear2="Ishvara Earring",
 		body="Viti. Tabard +2",hands="Atrophy Gloves +2",ring1="Ifrit Ring +1",ring2="Rufescent Ring",
-		back=gear.wsd_jse_back,waist="Sailfi Belt +1",legs="Jhakri Slops +1",feet="Jhakri Pigaches +1"}
+		back=gear.wsd_jse_back,waist="Sailfi Belt +1",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"}
 		
 	sets.precast.WS['Sanguine Blade'] = {range=empty,ammo="Pemphredo Tathlum",
 		head="Pixie Hairpin +1",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Malignance Earring",
-		body=gear.merlinic_nuke_body,hands="Jhakri Cuffs +1",ring1="Metamor. Ring +1",ring2="Archon Ring",
+		body=gear.merlinic_nuke_body,hands="Jhakri Cuffs +2",ring1="Metamor. Ring +1",ring2="Archon Ring",
 		back=gear.nuke_jse_back,waist="Refoccilation Stone",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
 		
 	sets.precast.WS['Seraph Blade'] = {range=empty,ammo="Pemphredo Tathlum",
 		head=gear.merlinic_nuke_head,neck="Baetyl Pendant",ear1="Regal Earring",ear2="Malignance Earring",
-		body=gear.merlinic_nuke_body,hands="Jhakri Cuffs +1",ring1="Shiva Ring +1",ring2="Freke Ring",
+		body=gear.merlinic_nuke_body,hands="Jhakri Cuffs +2",ring1="Shiva Ring +1",ring2="Freke Ring",
 		back=gear.nuke_jse_back,waist="Refoccilation Stone",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
 		
 	sets.precast.WS['Aeolian Edge'] = {range=empty,ammo="Pemphredo Tathlum",
 		head=gear.merlinic_nuke_head,neck="Baetyl Pendant",ear1="Regal Earring",ear2="Malignance Earring",
-		body=gear.merlinic_nuke_body,hands="Jhakri Cuffs +1",ring1="Metamor. Ring +1",ring2="Freke Ring",
+		body=gear.merlinic_nuke_body,hands="Jhakri Cuffs +2",ring1="Metamor. Ring +1",ring2="Freke Ring",
 		back=gear.nuke_jse_back,waist="Refoccilation Stone",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
 
 	-- Midcast Sets
@@ -311,7 +311,7 @@ function init_gear_sets()
 	sets.resting = {ammo="Staunch Tathlum",
 		head="Viti. Chapeau +2",neck="Moepapa Pendant",ear1="Aredan Earring",ear2="Assuage Earring",
 		body="Ayanmo Corazza",hands="Ayanmo Manopolas",ring1="Jhakri Ring",ring2="Dark Ring",
-		back="Sucellos's Cape",waist="Sailfi Belt +1",legs="Carmine Cuisses +1",feet="Jhakri Pigaches +1"}
+		back="Sucellos's Cape",waist="Sailfi Belt +1",legs="Carmine Cuisses +1",feet="Jhakri Pigaches +2"}
 	
 
 	-- Idle sets
