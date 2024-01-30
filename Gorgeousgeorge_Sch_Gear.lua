@@ -377,12 +377,12 @@ end
 -- Default macro set/book
 function select_default_macro_book()
 	if player.sub_job == 'RDM' then
-		set_macro_page(1, 18)
+		set_macro_page(1, 9)
 	elseif player.sub_job == 'BLM' then
-		set_macro_page(1, 18)
+		set_macro_page(1, 9)
 	elseif player.sub_job == 'WHM' then
-		set_macro_page(1, 18)
+		set_macro_page(1, 9)
 	else
-		set_macro_page(1, 18)
+		set_macro_page(1, 9)
 	end
 end
