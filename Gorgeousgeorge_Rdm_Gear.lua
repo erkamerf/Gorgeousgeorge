@@ -310,7 +310,7 @@ function init_gear_sets()
 	-- Resting sets
 	sets.resting = {ammo="Staunch Tathlum",
 		head="Viti. Chapeau +2",neck="Moepapa Pendant",ear1="Aredan Earring",ear2="Assuage Earring",
-		body="Ayanmo Corazza +2",hands="Ayanmo Manopolas",ring1="Jhakri Ring",ring2="Dark Ring",
+		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Jhakri Ring",ring2="Dark Ring",
 		back="Sucellos's Cape",waist="Sailfi Belt +1",legs="Carmine Cuisses +1",feet="Jhakri Pigaches +2"}
 	
 
