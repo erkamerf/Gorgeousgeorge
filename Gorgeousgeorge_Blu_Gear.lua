@@ -101,7 +101,7 @@ function init_gear_sets()
 
 	-- Fast cast sets for spells
 
-	sets.precast.FC = {
+	sets.precast.FC = {ammo="Impatiens",
 		head="Amalric Coif +1",neck="Voltsurge Torque",ear1="Enchntr. Earring +1",ear2="Loquac. Earring",
 		body="Amalric Doublet +1",hands="Amalric Gages +1",ring1="Prolix Ring",ring2="Weather. Ring",
 		back="Swith Cape +1",waist="Witful Belt",legs="Lengo Pants",feet="Amalric Nails +1"}
