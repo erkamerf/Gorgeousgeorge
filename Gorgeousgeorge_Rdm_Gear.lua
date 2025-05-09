@@ -83,7 +83,7 @@ function init_gear_sets()
 		body={ name="Chironic Doublet", augments={'"Blood Boon"+2','INT+3','Weapon skill damage +6%','Accuracy+12 Attack+12','Mag. Acc.+10 "Mag.Atk.Bns."+10',}},
     	hands="Jhakri Cuffs +2",
     	legs={ name="Chironic Hose", augments={'Accuracy+3 Attack+3','Weapon skill damage +1%','Mag. Acc.+13 "Mag.Atk.Bns."+13',}},
-    	feet="Aya. Gambieras +1", neck="Moepapa Medal", waist="Refoccilation Stone", left_ear="Heims Earring", right_ear="Assuage Earring",
+    	feet="Aya. Gambieras +2", neck="Moepapa Medal", waist="Refoccilation Stone", left_ear="Heims Earring", right_ear="Assuage Earring",
     	left_ring="Jhakri Ring", right_ring="Mujin Band", back=gear.wsd_jse_back}
 		
 	sets.precast.WS.Proc = 	{range=empty,ammo="Hasty Pinion +1",
@@ -401,7 +401,7 @@ function init_gear_sets()
     	head={ name="Chironic Hat", augments={'AGI+10','"Dbl.Atk."+1','Quadruple Attack +3','Accuracy+19 Attack+19','Mag. Acc.+8 "Mag.Atk.Bns."+8',}},
     	body="Ayanmo Corazza +2",
     	hands={ name="Chironic Gloves", augments={'MND+5','Quadruple Attack +2','Accuracy+11 Attack+11','Mag. Acc.+19 "Mag.Atk.Bns."+19',}},
-    	legs="Carmine Cuisses +1", feet="Aya. Gambieras +1", neck="Moepapa Pendant", waist="Sailfi Belt +1",
+    	legs="Carmine Cuisses +1", feet="Aya. Gambieras +2", neck="Moepapa Pendant", waist="Sailfi Belt +1",
     	left_ear="Bladeborn Earring", right_ear="Assuage Earring", left_ring="Jhakri Ring", right_ring="Rajas Ring",
     	back="Sucellos's Cape",}
 		
